@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dave Haynes</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css"> -->
+  <link rel="stylesheet" href="css/style-first.css">
+  <script src='js/jquery.js'></script>
+  <script src='js/jquery.touchSwipe.min.js'></script>
+  <script src='js/underScore.js'></script>
+  <script src='js/bootstrap.min.js'></script>
+  <script src='js/main.js'></script>
+</head>
+<body>
+    <nav id="nav-div">
+				<ul id='nav-menu'>
+            <li class='burger-display' id='burger'><img src="assets/burgerIcon.png" alt="Menu" id='burger-img'></li>
+            <li class="hide expand-menu menu">Home</li>
+  					<li class="hide expand-menu menu">About</li>
+  					<li class="hide expand-menu menu">Skills</li>
+  					<li class="hide expand-menu menu">Projects</li>
+  					<li class="hide expand-menu menu">Contact</li>
+				</ul>
+				<!-- <div id="burger"><img src="assets/burgerIcon.png" alt="Menu" id='burger-img'></div> -->
+    </nav>
+
+    <div id="arrows">
+          <img id='up-arrow' class='arrows hide' src="assets/icon-arrow-up.png" alt="up">
+          <img id='down-arrow' class='arrows hide' src="assets/icon-arrow-down.png" alt="down">
+          <img id='left-arrow' class='arrows hide' src="assets/icon-arrow-left.png" alt="left">
+          <img id='right-arrow' class='arrows hide' src="assets/icon-arrow-right.png" alt="right">
+    </div>
+
+  <div id="home" class="col-xs-12">
+    <h1 class='home-h1'>David Haynes</h1>
+  </div>
+
+  <div id="about" class='col-xs-12 hide'>
+    <h3 class='page-heading'>How did I get here?</h1>
+      <br>
+
+      <div id="summary">
+        <p class='about-text'>Hey, I'm Dave.</p>
+        <br class='summary-breaks hide'>
+        <p class='about-text'>I am 33, I live in Bondi. I like going to the beach and doing triathlons. </p>
+        <br class='summary-breaks hide'>
+        <p class='about-text'>I have worked in hospitality for most of my life, as licensee at various hotels and then running my own consulting business for bars and restaurants. I really enjoy working with businesses to help them improve their results.</p>
+        <br class='summary-breaks hide'>
+        <p class='about-text'>I’ve always been interested in web development because of its scalability and its seemingly endless potential. Since taking the plunge with General Assemblys Web Development Immersive I am so happy I made the decision and there is no looking back!</p>
+      </div>
+
+
+
+    <ul class='about-me-ul'>
+      <li class='about-me-li col-md-3 col-sm-12'>
+        <div class='about-me about-me-job' id="licensee">
+        <h4 class='job-head'>2003-2009</h4>
+        <h4 class='job-head'>Licensee/General Manager</h4>
+        </div>
+      </li>
+      <li class='about-me-li col-md-3 col-sm-12'>
+        <div class='about-me about-me-job' id="consulting">
+          <h4 class='job-head'>2010-2015</h4>
+          <h4 class='job-head'>Hospitality Consulting</h4>
+        </div>
+      </li>
+      <li class='about-me-li col-md-3 col-sm-12'>
+        <div class='about-me about-me-job' id="insurance">
+          <h4 class='job-head'>2013-2015</h4>
+          <h4 class='job-head'>Insurance Underwriter</h4>
+        </div>
+      </li>
+      <li class='about-me-li col-md-3 col-sm-12'>
+        <div class='about-me about-me-job' id="ga-student">
+          <h4 class='job-head'>2016</h4>
+          <h4 class='job-head'>GA Student</h4>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div id="skills" class='col-xs-12 hide'>
+    <h3 class='page-heading'>My Skills</h1>
+    <ul>
+      <div id="skills-top-line" class="col-xs-12">
+          <li class='skills-li col-md-3 col-xs-6'><img class='skills-logo' src="assets/html-logo.png" alt="HTML"></a></li>
+          <li class='skills-li col-md-3 col-xs-6'><img class='skills-logo' src="assets/css3-logo.png" alt="CSS"></li>
+          <li class='skills-li col-md-3 col-xs-6'><img class='skills-logo' src="assets/ruby-logo.png" alt="Ruby"></li>
+          <li class='skills-li col-md-3 col-xs-6'><img class='skills-logo' src="assets/rails-logo.png" alt="Rails"></li>
+      </div>
+      <div id="skills-bottom-line" class="col-xs-12">
+
+          <li class='skills-li col-md-3 col-xs-6'><img class='skills-logo' src="assets/js-logo.png" alt="JS"></li>
+          <li class='skills-li col-md-3 col-xs-6'><img class='skills-logo' src="assets/jquery-logo.png" alt="Jquery"></li>
+          <li class='skills-li col-md-3 col-xs-6'><img class='skills-logo' src="assets/backbone-logo.png" alt="Backbone"></li>
+          <li class='skills-li col-md-3 col-xs-6'><img class='skills-logo' src="assets/three-logo.png" alt="Three JS"></li>
+      </div>
+    </ul>
+  </div>
+
+
+  <div id="portfolio" class='col-xs-12 hide'>
+
+    <div id="modal-container"  class='hide'>
+      <div class="centering"></div>
+      <div id="project-modal">
+          <h3 class='page-heading' id='project-modal-heading' class='col-xs-12'>Project</h3>
+
+          <img id='project-modal-image' class='col-xs-6' src="" alt="">
+          <div id="modal-rhs-container" class='col-xs-6'>
+              <p id='project-modal-description' class='col-xs-12'></p>
+              <a id='project-modal-code' class='project-link col-xs-5' href="" target='_blank'>Code</a>
+              <div class='col-xs-2'></div>
+              <a id='project-modal-site' class='project-link col-xs-5' href="" target='_blank'>Site</a>
+          </div>
+      </div>
+      <div class="centering"></div>
+    </div>
+
+    <h3 class='page-heading'>My Portfolio</h1>
+        <ul id='portfolio-list' class='portfolio-list col-xs-12'>
+          <!-- information gets added in main.js app.addProjects() -->
+        </ul>
+
+  </div>
+
+  <div id="contact" class='col-xs-12 hide'>
+    <h3 class='page-heading'>Contact Me</h1>
+    <ul class='contact-ul'>
+      <li class='contact-li col-md-3 col-xs-6'><a href="mailto:dhaynesxx@gmail.com" target='_top'><img class='contact-logo' src="assets/email.png" alt="Email"></a></li>
+      <li class='contact-li col-md-3 col-xs-6'><a href="https://github.com/dhaynesxx" target='_blank'><img class='contact-logo' src="assets/github.png" alt="Github"></a></li>
+      <li class='contact-li col-md-3 col-xs-6'><a href="https://www.linkedin.com/in/davidrhyshaynes" target='_blank'><img class='contact-logo' src="assets/linkedin.png" alt="Linkedin"></a></li>
+      <li class='contact-li col-md-3 col-xs-6'><a href="https://profiles.generalassemb.ly/profiles/david-haynes" target='_blank'><img class='contact-logo' src="assets/ga-logo.png" alt="General Assembly"></a></li>
+    </ul>
+  </div>
+
+  <link rel="stylesheet" href="css/style-second.css">
+</body>
+</html>

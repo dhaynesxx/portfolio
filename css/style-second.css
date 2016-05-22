@@ -1,0 +1,144 @@
+#portfolio {
+  border: 1px solid black;
+  height: 100%;
+  background: url(../assets/DGS_SummerWatercolor_06.jpg);
+  background-size: cover;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.page-heading {
+  font-size: 75px;
+}
+.mobile-page-heading {
+  font-size: 100px;
+  line-height: 125px;
+}
+
+.portfolio-list {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.mobile-portfolio-list {
+  margin: 10% auto 0 auto;
+  padding-top: 10px;
+}
+
+.portfolio-li {
+  min-height: 275px;
+  padding: 0 4px;
+}
+.portfolio-li:hover {
+  cursor: pointer;
+}
+
+.project {
+  width: 100%;
+  min-height: 275px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 30px;
+  left: -25px;
+}
+.project-heading {
+  font-size: 30px;
+  line-height: 34px;
+}
+
+.mobile-project-heading {
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.project-element {
+  margin: 5px 0;
+}
+
+.mobile-project-element {
+  margin-bottom: 50px;
+}
+
+.project-link {
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: rgba(68,198,190,1);
+  color: white;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.mobile-project-link {
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: rgba(68,198,190,1);
+  color: white;
+  font-size: 200px;
+  line-height: 250px;
+  margin-bottom: 50px;
+}
+
+#project-modal-description {
+  height: 100%;
+  font-size: 25px;
+  line-height: 50px;
+  font-family: architect;
+  text-align: justify;
+  /*position: relative;
+  top: -125px;*/
+}
+
+#modal-container {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba( 220, 220, 220, 0.7 );
+  z-index: 50;
+}
+
+.centering {
+  height: 10%;
+  width: 100%;
+}
+
+#project-modal {
+  height: 80%;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: gainsboro;
+  color: black;
+  margin: auto;
+  z-index: 51;
+}
+
+#project-modal-image {
+  margin-top: 50px;
+}
+
+#contact {
+  border: 1px solid black;
+  height: 100%;
+  background: url(../assets/DGS_SummerWatercolor_08.jpg);
+  background-size: cover;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.contact-li {
+  padding: 100px 50px;
+  height: 400px;
+}
+
+.mobile-contact-li {
+  margin: 15% 0;
+}
+
+.contact-logo {
+  width: 100%;
+
+}

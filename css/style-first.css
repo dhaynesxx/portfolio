@@ -1,0 +1,237 @@
+@font-face {
+    font-family: malina;
+    src: url(../assets/Malina-Regular.ttf);
+}
+
+@font-face {
+    font-family: architect;
+    src: url(../assets/ArchitectsDaughter.ttf);
+}
+
+
+.hide-menu {
+  display: none;
+}
+
+body {
+  font-family: malina;
+  text-align: center;
+  min-height: 700px;
+}
+
+#swipe-test {
+  position: fixed;
+  left: 50px;
+  top: 100px;
+  font-size: 20px;
+  z-index: 50;
+}
+
+#nav-div  {
+  position: fixed;
+  left: 50px;
+  top: 35px;
+  z-index: 100;
+}
+
+#nav-div:hover {
+  cursor: pointer;
+}
+
+/*#nav-menu {
+  position: relative;
+  left: 50px;
+  top: 50px;
+}*/
+
+#burger {
+  z-index: 100;
+}
+
+#burger-img {
+  height: 100%;
+}
+
+.burger-display {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 5px;
+  line-height: 50px;
+}
+
+.mobile-burger-display {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+  line-height: 100px;
+}
+
+.menu {
+  height: 50px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: black;
+  line-height: 50px;
+  color: white;
+  font-size: 40px;
+}
+
+.mobile-menu {
+  height: 200px;
+  width: 600px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: black;
+  line-height: 200px;
+  color: white;
+  font-size: 160px;
+}
+
+.menu:hover {
+  background-color: gainsboro;
+  color: black;
+}
+
+/*.menu-link {
+
+}
+
+.mobile-menu-link {
+  color: white;
+  font-size: 80px;
+}*/
+
+.arrows {
+  position: fixed;
+  width: 50px;
+  z-index: 100;
+}
+
+#up-arrow {
+  left: 50%;
+  top: 87%;
+}
+
+#down-arrow {
+  left: 50%;
+  top: 93%;
+}
+
+#left-arrow {
+  left: 45%;
+  top: 90%;
+}
+
+#right-arrow {
+  left: 55%;
+  top: 90%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#home {
+  border: 1px solid black;
+  height: 100%;
+  background: url(../assets/DGS_SummerWatercolor_08.jpg);
+  background-size: cover;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.home-h1 {
+  position:relative;
+  top: -5%;
+  font-size: 290px;
+}
+
+.mobile-home-h1 {
+  position: relative;
+  top: 20%;
+  font-size: 290px;
+}
+
+#about {
+  border: 1px solid black;
+  height: 100%;
+  background: url(../assets/DGS_SummerWatercolor_06.jpg);
+  background-size: cover;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.about-me-ul {
+  width: 100%;
+  height: 100%;
+}
+
+.about-me-li {
+  height: 75%;
+}
+
+.about-me {
+  width: 100%;
+  background-color: rgba(68,198,190,0.6);
+  color: white;
+  border: 1px solid #0C908A;
+  border-radius: 10px;
+}
+.mobile-about-me {
+  margin-top: 20%;
+}
+
+#summary {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about-text {
+  font-family: architect, serif;
+  font-size: 20px;
+}
+
+.mobile-about-text {
+  font-family: architect, serif;
+  font-size: 50px;
+}
+
+.about-me-job {
+  min-height: 200px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.job-head {
+  line-height: 50px;
+  font-size: 23px;
+}
+
+#skills {
+  border: 1px solid black;
+  height: 100%;
+  background: url(../assets/DGS_SummerWatercolor_09.jpg);
+  background-size: cover;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.skills-li {
+  padding: 50px;
+}
+.mobile-skills-li {
+  height: 350px;
+}
+
+.skills-logo {
+  width: 100%;
+}
+
+.mobile-skills-logo {
+  width:75%;
+}
